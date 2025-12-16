@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.example.alexthundercook.microbiomereplacer.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ChunkGeneratorMixin",
+    "BiomeQueryMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
